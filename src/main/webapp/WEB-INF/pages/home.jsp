@@ -4,9 +4,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Home</title>
 </head>
+<%@ page import="java.util.Date"%>
 <body>
-Welcome
+<div class="loader">
+    <span class="loader-text">Today is </span>
+      <span class="load"> <%=new Date() %></span>
+  </div>
+
 </body>
 </html>
