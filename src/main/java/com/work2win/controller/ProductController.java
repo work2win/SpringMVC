@@ -8,9 +8,14 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Controller
 public class ProductController {
 	
+	
+	
 	@GetMapping("/prod")
 	public String prodSample() {
+		method();
 		return "home";
 	}
+	
+	public void method() {}
 
 }
